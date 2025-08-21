@@ -16,23 +16,23 @@ const __dirname = path.dirname(__filename);
 
 
 //MAIN
-router.get('/',(req,res)=>{
-    res.sendFile(path.join(__dirname,'../../../amazon-clone/public','amazon.html'));
-})
-router.get('/loginRegister',(req,res)=>{
-    res.sendFile(path.join(__dirname,'../../../amazon-clone/public','loginRegister.html'));
-})
-router.get('/checkout',(req,res)=>{
-    res.sendFile(path.join(__dirname,'../../../amazon-clone/public','checkout.html'));
-})
+// router.get('/',(req,res)=>{
+//     res.sendFile(path.join(__dirname,'../../../amazon-clone/public','amazon.html'));
+// })
+// router.get('/loginRegister',(req,res)=>{
+//     res.sendFile(path.join(__dirname,'../../../amazon-clone/public','loginRegister.html'));
+// })
+// router.get('/checkout',(req,res)=>{
+//     res.sendFile(path.join(__dirname,'../../../amazon-clone/public','checkout.html'));
+// })
 
-router.get('/orders',(req,res)=>{
-    res.sendFile(path.join(__dirname,'../../../amazon-clone/public','orders.html'));
-})
+// router.get('/orders',(req,res)=>{
+//     res.sendFile(path.join(__dirname,'../../../amazon-clone/public','orders.html'));
+// })
 
-router.get('/placeYourOrder',(req,res)=>{
-    res.sendFile(path.join(__dirname,'../../../amazon-clone/public','placeYourOrder.html'));
-})
+// router.get('/placeYourOrder',(req,res)=>{
+//     res.sendFile(path.join(__dirname,'../../../amazon-clone/public','placeYourOrder.html'));
+// })
 
 
 
