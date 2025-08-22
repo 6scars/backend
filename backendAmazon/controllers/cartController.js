@@ -15,7 +15,7 @@ const createCart = async (req, res) => {
 
     return res.json({
         message:'register succesfully, wait for redirect',
-        redirect:'/'
+        redirect:'/amazon-clone/public/amazon.html'
     });
 
   } catch (err) {
